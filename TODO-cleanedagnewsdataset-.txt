@@ -1,0 +1,15 @@
+TODOs
+________
+
+
+TODO: excel spreadsheet contains three columns: the first is index, the second is the class 
+       label (what kind of article) and the third colum is the news snippet.
+
+TODO: split each instance into 5 parts containing 20% 40 60 80 100 of the words in the snippet from the beginning
+TODO: this will give you a file with 5,000 sub instances please include the index and the calss labels
+       when you split each instance into sub-instances.
+TODO: save as excel spreadhsehet file .xlsx and see if numbers can do that
+TODO: what to do about non words like punctuation. currently each individual puncuation would be counted as a word and a space would be added
+      between all punctuations even repeating ones -_-_-_-_ - _ - _ etc
+TODO: include header column for percent of full?
+
