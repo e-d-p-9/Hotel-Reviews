@@ -1,6 +1,6 @@
 TODOs
 ________
-
+TODO: randomly pick 1000 snippets from the 3000
 
 TODO: excel spreadsheet contains three columns: the first is index, the second is the class 
        label (what kind of article) and the third colum is the news snippet.
