@@ -16,14 +16,13 @@ def five_split_df(df):
     '''
     
     # initialize new empty dataframe to hold splits
+    # TODO: different headers missing review response and user id
     split_df = pd.DataFrame(columns=['Article Index', 'Class Label', 'Description', 'Percent of Full'])
     
-    # index for print output (TODO: remove print output)
     i = 1
     # iterate through the reviews dataframe
     for index in df.index:
 
-        # TODO: remove print output
         # output index for status check
         print(f"{i} of {len(df)}")
         i += 1
@@ -47,8 +46,6 @@ def five_split_df(df):
         sixty = ' '.join(sixty)
         eighty = ' '.join(eighty)
         hundred = description
-
-        # TODO: lint code
     
         # append to split dataframe
         split_df.loc[len(split_df), split_df.columns] = df.loc[index]['Article Index'], df.loc[index]['Class Index'], twenty, 20
@@ -63,3 +60,11 @@ def five_split_df(df):
 
 
 if __name__ == "__main__":
+    # read in dataset
+    df = pd.read_excel("Cleaned_AG_News_Dataset_Unlabeled 1.xlsx")
+    df = df.sample(3)
+
+    # split and discretize
+    df = five_split_df(df)
+    print(df)
+
