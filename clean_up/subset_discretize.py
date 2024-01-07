@@ -62,9 +62,12 @@ def five_split_df(df):
 if __name__ == "__main__":
     # read in dataset
     df = pd.read_excel("Cleaned_AG_News_Dataset_Unlabeled 1.xlsx")
-    df = df.sample(3)
+
+    # get 1000 samples from dataset
+    df = df.sample(1000)
 
     # split and discretize
     df = five_split_df(df)
-    print(df)
 
+    # save to new excel file
+    df.to_excel('news_dataset_random_1000_five_split.xlsx')
