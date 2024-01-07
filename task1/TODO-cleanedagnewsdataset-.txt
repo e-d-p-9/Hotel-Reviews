@@ -7,7 +7,7 @@ TODO: excel spreadsheet contains three columns: the first is index, the second i
 
 TODO: split each instance into 5 parts containing 20% 40 60 80 100 of the words in the snippet from the beginning
 
-TODO: this will give you a file with 5,000 sub instances please include the index and the calss labels
+TODO: this will give you a file with 5,000 sub instances please include the index and the class labels
        when you split each instance into sub-instances.
 
 TODO: save as excel spreadhsehet file .xlsx and see if numbers can do that
