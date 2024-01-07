@@ -47,6 +47,8 @@ def five_split_df(df):
         sixty = ' '.join(sixty)
         eighty = ' '.join(eighty)
         hundred = description
+
+        # TODO: lint code
     
         # append to split dataframe
         split_df.loc[len(split_df), split_df.columns] = df.loc[index]['Article Index'], df.loc[index]['Class Index'], twenty, 20
