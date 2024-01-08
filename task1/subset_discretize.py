@@ -91,3 +91,7 @@ if __name__ == "__main__":
 
     # save to new excel file
     df_news_ag.to_excel('news_dataset_random_1000_five_split.xlsx')
+    
+    # new dataframe should be 5 * NUM_SAMPLES
+    print(f"\n\nDiscretized dataset num rows: {len(df_news_ag)}")
+    print(f"Num rows should be: {NUM_SAMPLES*5}")
