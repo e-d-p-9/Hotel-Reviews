@@ -94,4 +94,4 @@ if __name__ == "__main__":
 
     # new dataframe should be 5 * NUM_SAMPLES
     print(f"\n\nDiscretized dataset num rows: {len(df_news_ag)}")
-    print(f"Num rows should be: {NUM_SAMPLES*5}")
+    print(f"Num rows should be: {NUM_SAMPLES*int(100/20)}")
