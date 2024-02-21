@@ -4,3 +4,13 @@
     Amazin mechanical turk
     others?
 * add percentage of full to task 2 split csv using python
+
+
+
+
+
+1 sort by ascending index value should be 5 dupliates
+
+2 get length of part in all similar indexes
+
+3 sort from lowest text length to most text length and add to new dataframe
