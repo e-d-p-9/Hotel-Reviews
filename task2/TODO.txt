@@ -1,0 +1,6 @@
+* Look into crowd sourcing platforms and pricing:
+    Upwork
+    Appen
+    Amazin mechanical turk
+    others?
+* add percentage of full to task 2 split csv using python
