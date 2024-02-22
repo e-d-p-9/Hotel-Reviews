@@ -14,3 +14,6 @@
 2 get length of part in all similar indexes
 
 3 sort from lowest text length to most text length and add to new dataframe
+
+
+generate test to measure ascii char sfore and how many lines it takes to equal 1gb and if number if columns ir commas effect it shouldn't if 1b = 1mil characters
