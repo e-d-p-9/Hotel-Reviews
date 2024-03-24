@@ -1,0 +1,9 @@
+iChakraborty
+
+Read an entry from Hotel_Sub_1. Use the index to locate that entry in the Hotel_Review_1000_selected_unlabeled_file. This will give you full text
+
+See what percentage of the full text is contained in the entry that you have read in from hotel_sub_1
+
+Enter that percentage in the same entry in hotel_sub_1
+
+The hotel_sub_1.csv should look exactly like it is now - only the percentage column should be added at the extreme right.  The rows should not be permuted
